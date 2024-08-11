@@ -8,6 +8,10 @@ body{
     background-color: black;
 }
 
+audio::-webkit-media-controls {
+    display: none;
+}
+
 canvas{
     position: absolute;
     top: 50%;
